@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./project3.css">
+</head>
+
+<body>
+
+    <div class="body">
+
+        <div class="logo">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="min-cont">
+
+            <div class="left">
+                <p>bill</p>
+                <input type="number" id="bill">
+                <p class="tip">select tip %</p>
+                <div class="tip-cont">
+                    <div class="percent">5%</div>
+                    <div class="percent">10%</div>
+                    <div class="percent active">15%</div>
+                    <div class="percent">20%</div>
+                    <div class="percent">50%</div>
+                    <div class="percent custom"><input id="custom" type="number" placeholder="Custom"></div>
+                </div>
+                <p class="people">no of people</p>
+                <input class="" type="number" id="people">
+
+            </div>
+            <div class="right">
+                <div class="cont">
+                    <div class=" cal tip-amt-min">
+                        <div class="tip-amt">
+                            <h3>tip amount</h3>
+                            <p>/person</p>
+                        </div>
+                        <div class="amount" id="tip"> $0.00</div>
+                    </div>
+                    <div class=" cal total-amt-min">
+                        <div class="total-amt">
+                            <h3>total amount</h3>
+                            <p>/person</p>
+                        </div>
+                        <div class="amount" id="total"> $0.00</div>
+                    </div>
+                    <button class="reset" type="reset">RESET</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./project3.js"></script>
+
+</body>
+
+</html>
